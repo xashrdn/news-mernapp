@@ -1,18 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import { News } from "./pages/News";
+import { Video } from "./pages/Video";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        <Route path="/News" element={<News />} />
+        <Route path="/Video" element={<Video />} />
       </Routes>
     </BrowserRouter>
   );
 };
-
 export default App;
