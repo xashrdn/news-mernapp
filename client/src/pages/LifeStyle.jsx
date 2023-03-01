@@ -1,8 +1,10 @@
-const Lifestyle = () => {
+import Ad from "../components/Ad"
+
+export const Lifestyle = () => {
   return <div className="flex justify-center mt-[15px]">
   <div className="flex flex-col mr-8">
     <div className="flex">
-      <p className="mr-[50vw] font-sans-serif text-red-400 text-2xl">Sports</p>
+      <p className="mr-[50vw] font-sans-serif text-red-400 text-2xl">Lifestyle</p>
       <button className="bg-red-400 hover:opacity-60 mr-2 w-6 h-6 mt-2" type="button">←</button>
       <button className="bg-red-400 hover:opacity-60 w-6 h-6 mt-2" type="button">→</button>
     </div>
@@ -66,13 +68,6 @@ const Lifestyle = () => {
       </div>
     </div>
   </div>
-  <div>
-    <div className="bg-[#DEDADA] w-[22vw] h-[22vw]">
-      <div className="text-[20px]">Get Latest Updates</div>
-      <div className="text-[12px] bg-[#FFFFFF]">Your email address</div>
-      <div className="text-[20px] bg-[#F65050]">Subscribe</div>
-    </div>
-  </div>
+  <Ad/>
 </div>
 }
-export default Lifestyle;
