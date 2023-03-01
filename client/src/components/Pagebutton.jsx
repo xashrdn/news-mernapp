@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 export const Pagebutton = () => {
   return (
     <div className="flex gap-5 h-[30px] text-[white]">
