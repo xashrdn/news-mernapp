@@ -8,34 +8,45 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <div>
-      <div className="w-[100vw] h-12 shadow items-center flex justify-between">
-        <div className="flex items-center space-x-5 ml-[7vw]">
-          <img src={sunset} alt="" />
-          <div className="text-xs ">15°C New York</div>
-          <img src={clock} alt="" />
-          <div className="text-xs "> Wednesday, 10 January 2021 </div>
-          <div className="w-24 h-12 bg-[#F65050] items-center flex text-xs text-white justify-center">
+      <div className="w-[100vw] h-14 shadow items-center lg:space-x-6 flex">
+        <div className="flex items-center ml-[7vw] gap-0 sm:gap-2">
+          <img
+            className="w-[20px] h-[10px] sm:w-[30px] sm:h-[20px]"
+            src={sunset}
+            alt=""
+          />
+          <div className="text-[8px] sm:text-[12px]">15°C New York</div>
+          <img
+            className="w-[20px] h-[10px] sm:w-[30px] sm:h-[20px]"
+            src={clock}
+            alt=""
+          />
+          <div className="text-[8px] sm:text-[12px]">
+            {" "}
+            Wednesday, 10 January 2021{" "}
+          </div>
+          <div className="w-20 h-14 bg-[#F65050] items-center justify-center flex text-[8px] sm:text-[12px] sm:w-28 lg:w-24 text-white">
             Breaking News
           </div>
-          <div className="text-xs">
+          <div className="text-[0px] sm:text-[12px]">
             Indonesia says located black box recorders from crashed plane
           </div>
         </div>
-        <div className="mr-[7vw]">
+        <div className="mr-[7vw] xl:mr-[0] xl:ml-[20vw]">
           <img className="" src={socials} alt="" />
         </div>
       </div>
       <div className="ml-[7vw] mt-[6vh] w-[86vw] flex justify-between items-center">
         <img
-          className="w-[140px] h-[30px] xl:w-[247px] xl:h-[60px]"
+          className="h-[30px] sm:h-[40px] md:h-[55px] xl:h-[60px]"
           src={logo}
           alt=""
         />
         <div
           style={{ backgroundImage: `url(${backgroundAd})` }}
-          className="flex justify-between w-[60vw] left-0 p-5 bg-no-repeat bg-cover bg-center"
+          className="flex items-center justify-between w-[50vw] h-[10vh] sm:h-[12vh] left-0 p-5 bg-no-repeat bg-cover bg-center"
         >
-          <div className="text-md text-[white]">
+          <div className="text-[8px] sm:text-[12px] md:text-[16px] text-[white]">
             Best Selling BLOG and MAGAZINE <br /> Theme of All Time <br />
             <span className="font-[Oswald] text-[#F65050]">
               Experience the change!
@@ -43,17 +54,17 @@ export const Navbar = () => {
           </div>
           <button
             style={{ transition: ".4s" }}
-            className="w-80 h-16 bg-[#F65050] text-[white] text-3xl hover:bg-red-700"
+            className="w-[20vw] h-[5vh] bg-[#F65050] text-[white] text-[8px] sm:text-[12px] md:text-[16px] hover:bg-red-700"
           >
             Purchase now
           </button>
         </div>
       </div>
-      <div className="flex items-center text-[white] ml-[7vw] mt-[6vh] w-[86vw] h-[7vh] bg-[#393939]">
+      <div className="flex items-center text-[white] ml-[7vw] mt-[6vh] w-[86vw] h-[40px] sm:h-[46px] md:h-[51px] bg-[#393939]">
         <Link to="/">
           <div
             style={{ transition: ".4s" }}
-            className="p-7 text-xl hover:bg-[#F65050] "
+            className="p-[14px]  text-[8px]  sm:text-[12px] md:text-[16px] hover:bg-[#F65050] "
           >
             Home
           </div>
@@ -61,7 +72,7 @@ export const Navbar = () => {
         <Link to="/News">
           <div
             style={{ transition: ".4s" }}
-            className="p-7 text-xl hover:bg-[#F65050] "
+            className="p-[14px] text-[8px] sm:text-[12px] md:text-[16px] hover:bg-[#F65050] "
           >
             News
           </div>
@@ -69,7 +80,7 @@ export const Navbar = () => {
         <Link to="/Entertainment">
           <div
             style={{ transition: ".4s" }}
-            className="p-7 text-xl hover:bg-[#F65050] "
+            className="pb-[14px] pt-[14px] pr-[5px] pl-[5px] text-[8px] md:text-[16px] sm:text-[12px] hover:bg-[#F65050] "
           >
             Entertainment
           </div>
@@ -77,15 +88,15 @@ export const Navbar = () => {
         <Link to="/Sports">
           <div
             style={{ transition: ".4s" }}
-            className="p-7 text-xl hover:bg-[#F65050] "
+            className="p-[14px] text-[8px] sm:text-[12px] hover:bg-[#F65050] md:text-[16px]"
           >
             Sports
           </div>
         </Link>
-        <Link to="/Lifestyle">
+        <Link to="/Life Style">
           <div
             style={{ transition: ".4s" }}
-            className="p-7 text-xl hover:bg-[#F65050] "
+            className="pb-[14px] pt-[14px] pr-[5px] pl-[5px]   text-[8px] sm:text-[12px] md:text-[16px] hover:bg-[#F65050] "
           >
             Life Style
           </div>
@@ -93,7 +104,7 @@ export const Navbar = () => {
         <Link to="/Video">
           <div
             style={{ transition: ".4s" }}
-            className="p-7 text-xl hover:bg-[#F65050] "
+            className="p-[14px] text-[8px] sm:text-[12px] hover:bg-[#F65050] md:text-[16px]"
           >
             Video
           </div>
