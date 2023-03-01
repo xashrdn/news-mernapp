@@ -36,30 +36,60 @@ export const Video = () => {
             />
           </a>
         </div>
-        <div className="flex flex-row gap-8">
-          <Test2
-            image={videopicture}
-            image1={play}
-            text={"Craig Bator"}
-            text2={"27 Dec 2020"}
-            text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
-          />
-          <Test2
-            image={videopicture}
-            image1={play}
-            text={"Craig Bator"}
-            text2={"27 Dec 2020"}
-            text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
-          />
-          <Test2
-            image={videopicture}
-            image1={play}
-            text={"Craig Bator"}
-            text2={"27 Dec 2020"}
-            text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
-          />
-        </div>
-      </div>
+
+          <div className="flex flex-wrap gap-10 w-[70vw]">
+    
+            <Test2
+              image={videopicture}
+              image1={play}
+              text={"Craig Bator"}
+              text2={"27 Dec 2020"}
+              text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
+            />
+            <Test2
+              image={videopicture}
+              image1={play}
+              text={"Craig Bator"}
+              text2={"27 Dec 2020"}
+              text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
+            />
+            <Test2
+              image={videopicture}
+              image1={play}
+              text={"Craig Bator"}
+              text2={"27 Dec 2020"}
+              text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
+            />
+            <Test2
+              image={videopicture}
+              image1={play}
+              text={"Craig Bator"}
+              text2={"27 Dec 2020"}
+              text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
+            />
+            <Test2
+              image={videopicture}
+              image1={play}
+              text={"Craig Bator"}
+              text2={"27 Dec 2020"}
+              text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
+            />
+            <Test2
+              image={videopicture}
+              image1={play}
+              text={"Craig Bator"}
+              text2={"27 Dec 2020"}
+              text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
+            />
+            <Test2
+              image={videopicture}
+              image1={play}
+              text={"Craig Bator"}
+              text2={"27 Dec 2020"}
+              text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
+            />
+          </div>
+        </div>  
     </div>
   );
 };

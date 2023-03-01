@@ -3,7 +3,7 @@ export const Test2 = ({ image, image1, text, text2, text3 }) => {
     <div>
       <div
         style={{ backgroundImage: `url(${image})` }}
-        className="w-[424px] mt-[3vh] h-[24vh] bg-no-repeat bg-cover bg-center"
+        className="w-[430px] mt-[2vh] h-[24vh] bg-no-repeat bg-cover bg-center"
       >
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
           <img
@@ -13,11 +13,11 @@ export const Test2 = ({ image, image1, text, text2, text3 }) => {
           />
         </a>
       </div>
-      <div className="mt-[2vh]">
+      <div>
         <p>
           {text} - <span className="text-[gray]"> {text2} </span>
         </p>
-        <p className="text-[#393939] text-xl font-medium w-[442px]">{text3}</p>
+        <p className="text-[#393939] text-xl font-medium w-[300px]">{text3}</p>
       </div>
     </div>
   );
