@@ -3,7 +3,7 @@ import { Navbar } from "../components/Navbar";
 
 export const Sports = () => {
   return (
-    <div className="flex flex-col mt-[15px] ml-[18px]">
+    <div className="flex flex-col ml-[18px]">
       <Navbar />
       <div className="flex justify-center">
         <div className="flex flex-col mr-8">

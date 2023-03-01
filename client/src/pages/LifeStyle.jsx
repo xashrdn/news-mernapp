@@ -3,7 +3,7 @@ import { Navbar } from "../components/Navbar";
 
 export const Lifestyle = () => {
   return (
-    <div className="flex flex-col mt-[15px]">
+    <div className="flex flex-col">
       <Navbar />
       <div className="flex justify-center">
         <div className="flex flex-col mr-8">
