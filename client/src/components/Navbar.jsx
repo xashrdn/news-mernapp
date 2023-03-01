@@ -93,7 +93,7 @@ export const Navbar = () => {
             Sports
           </div>
         </Link>
-        <Link to="/Life Style">
+        <Link to="/LifeStyle">
           <div
             style={{ transition: ".4s" }}
             className="pb-[14px] pt-[14px] pr-[5px] pl-[5px]   text-[8px] sm:text-[12px] md:text-[16px] hover:bg-[#F65050] "
