@@ -1,7 +1,7 @@
 import Ad from "../components/Ad"
 
-const Sports = () => {
-    return <div className="flex justify-center mt-[15px]">
+export const Sports = () => {
+    return <div className="flex justify-center mt-[15px] ml-[18px]">
     <div className="flex flex-col mr-8">
       <div className="flex">
         <p className="mr-[50vw] font-sans-serif text-red-400 text-2xl">Sports</p>
@@ -68,4 +68,3 @@ const Sports = () => {
     <Ad/>
   </div>
 }
-export default Sports;
