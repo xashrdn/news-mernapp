@@ -1,6 +1,6 @@
 const Ad = () => {
     return (
-        <div>
+      <div>
       <div className="flex">
         <p className="mr-[15vw] font-sans-serif text-red-400 text-2xl">Stay Connected</p>
       </div>
