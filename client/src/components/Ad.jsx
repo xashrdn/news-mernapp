@@ -1,6 +1,6 @@
 const Ad = () => {
     return (
-      <div className="hidden xl:block">
+      <div className="hidden xl:block mt-[4vh]">
       <div className="flex ">
         <p className="mr-[15vw] font-sans-serif text-red-400 text-2xl xl:text-[24px] ">Stay Connected</p>
       </div>

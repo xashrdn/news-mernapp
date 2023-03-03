@@ -1,9 +1,7 @@
 import { Navbar } from "../components/Navbar";
-import line1 from "../assets/Temujin/line1.svg";
 import newsbusiness from "../assets/Temujin/newsbusiness.svg";
 import newspicture from "../assets/Temujin/newspicture.svg";
 import { Test } from "./Test";
-// import { Pagebutton } from "../components/pagebutton";
 import Ad from "../components/Ad";
 import { Link } from "react-router-dom";
 
@@ -149,7 +147,7 @@ export const News = () => {
             </div>
           </div>
         </div>
-        <div className="mt-[5vh] ">
+        <div>
           <Ad />
         </div>
       </div>
