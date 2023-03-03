@@ -4,6 +4,7 @@ import newspicture from "../assets/Temujin/newspicture.svg";
 import { Test } from "./Test";
 import Ad from "../components/Ad";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 export const News = () => {
   return (
@@ -14,7 +15,9 @@ export const News = () => {
           <div className="ml-[7vw] mt-[5vh] w-[64vw]">
             <div className="flex items-align justify-between w-[86vw] xl:w-[61vw] ">
               <div>
-                <p className="text-[10px] text-[#F65050] sm:text-[14px] md:text-[16px] lg:text-[20px] xl:text-[24px]">News</p>
+                <p className="text-[10px] text-[#F65050] sm:text-[14px] md:text-[16px] lg:text-[20px] xl:text-[24px]">
+                  Life Style
+                </p>
               </div>
               <div className="flex gap-1 h-[10px] text-[white]">
                 <Link to="/">
@@ -87,15 +90,7 @@ export const News = () => {
                 </div>
               </div>
             </div>
-             <div className="flex flex-col h-[30vh] xl:ml-[3vw] xl:w-[23vw] xl:h-[50vh] overflow-scroll overflow-x-hidden">
-              <Test
-                image={newspicture}
-                text={"Craig Bator"}
-                text2={"27 Dec 2020"}
-                text3={ 
-                  " Penn’s expanding political climate gears up for 2020 election"
-                }
-              />
+            <div className="flex flex-col h-[30vh] xl:ml-[3vw] xl:w-[23vw] xl:h-[50vh] overflow-scroll overflow-x-hidden">
               <Test
                 image={newspicture}
                 text={"Craig Bator"}
@@ -143,7 +138,15 @@ export const News = () => {
                 text3={
                   " Penn’s expanding political climate gears up for 2020 election"
                 }
-              /> 
+              />
+              <Test
+                image={newspicture}
+                text={"Craig Bator"}
+                text2={"27 Dec 2020"}
+                text3={
+                  " Penn’s expanding political climate gears up for 2020 election"
+                }
+              />
             </div>
           </div>
         </div>
@@ -151,6 +154,7 @@ export const News = () => {
           <Ad />
         </div>
       </div>
-     </div>
+      <Footer />
+    </div>
   );
 };

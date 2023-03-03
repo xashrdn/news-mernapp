@@ -7,10 +7,10 @@ import LINE from "../assets/lline.svg";
 import OneByOne from "../assets/cook.jpeg";
 const Footer = () => {
   return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
+    <div style={{ display: "flex", justifyContent: "center", marginTop: "2%" }}>
       <div
         style={{
-          width: "1480px",
+          width: "100vw",
           backgroundColor: "#393939",
           height: "400px",
           display: "flex",
@@ -20,7 +20,7 @@ const Footer = () => {
       >
         <div
           style={{
-            width: "1200px",
+            width: "1900px",
             height: "240px",
             display: "flex",
             justifyContent: "space-between",
@@ -28,7 +28,7 @@ const Footer = () => {
         >
           <div
             style={{
-              width: "275px",
+              width: "405px",
               height: "240px",
               display: "flex",
               flexDirection: "column",
@@ -47,7 +47,13 @@ const Footer = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque,
               pellentesque dictum posuere id diam rutrum.
             </p>
-            <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                width: "200px",
+              }}
+            >
               <div
                 style={{
                   backgroundImage: `url(${FB})`,
@@ -105,7 +111,7 @@ const Footer = () => {
                     backgroundImage: `url(${LINE})`,
                     backgroundSize: "cover",
                     height: "1px",
-                    width: "270px",
+                    width: "34  0px",
                   }}
                 ></div>
               </div>
@@ -116,54 +122,55 @@ const Footer = () => {
                   flexWrap: "wrap",
                   gap: "10px",
                   height: "100px",
+                  width: "350px",
                 }}
               >
                 <div
                   style={{
                     backgroundImage: `url(${OneByOne})`,
                     backgroundSize: "cover",
-                    height: "83.3px",
-                    width: "83.3px",
+                    height: "105px",
+                    width: "105px",
                   }}
                 ></div>
                 <div
                   style={{
                     backgroundImage: `url(${OneByOne})`,
                     backgroundSize: "cover",
-                    height: "83.3px",
-                    width: "83.3px",
+                    height: "105px",
+                    width: "105px",
                   }}
                 ></div>
                 <div
                   style={{
                     backgroundImage: `url(${OneByOne})`,
                     backgroundSize: "cover",
-                    height: "83.3px",
-                    width: "83.3px",
+                    height: "105px",
+                    width: "105px",
                   }}
                 ></div>
                 <div
                   style={{
                     backgroundImage: `url(${OneByOne})`,
                     backgroundSize: "cover",
-                    height: "83.3px",
-                    width: "83.3px",
+                    height: "105px",
+                    width: "105px",
                   }}
                 ></div>
                 <div
                   style={{
                     backgroundImage: `url(${OneByOne})`,
                     backgroundSize: "cover",
-                    height: "83.3px",
-                    width: "83.3px",
+                    height: "105px",
+                    width: "105px",
                   }}
                 ></div>
                 <div
                   style={{
                     backgroundImage: `url(${OneByOne})`,
                     backgroundSize: "cover",
-                    height: "83.3px",
-                    width: "83.3px",
+                    height: "105px",
+                    width: "105px",
                   }}
                 ></div>
               </div>
@@ -318,6 +325,7 @@ const Footer = () => {
                   padding: "10px",
                   fontSize: "14px",
                   textAlign: "center",
+                  height: "60px",
                 }}
               />
               <button
@@ -339,4 +347,4 @@ const Footer = () => {
   );
 };
 
-export default Home;
+export default Footer;

@@ -5,6 +5,7 @@ import play from "../assets/Temujin/play.svg";
 import videopicture from "../assets/Temujin/videopicture.svg";
 import { Test2 } from "./Test2";
 import Ad from "../components/Ad";
+import Footer from "../components/Footer";
 
 export const Video = () => {
   return (
@@ -12,10 +13,12 @@ export const Video = () => {
       <Navbar />
       <div className="flex flex-row">
         <div>
-        <div className="ml-[7vw] mt-[5vh] w-[61vw]">
+          <div className="ml-[7vw] mt-[5vh] w-[61vw]">
             <div className="flex items-align justify-between w-[86vw] xl:w-[61vw] ">
               <div>
-                <p className="text-[10px] text-[#F65050] sm:text-[14px] md:text-[16px] lg:text-[20px] xl:text-[24px]">Video</p>
+                <p className="text-[10px] text-[#F65050] sm:text-[14px] md:text-[16px] lg:text-[20px] xl:text-[24px]">
+                  Video
+                </p>
               </div>
               <div className="flex gap-1 h-[10px] text-[white]">
                 <Link to="/">
@@ -71,81 +74,98 @@ export const Video = () => {
             <div className="w-[86vw] lg:w-[61vw] h-[1px] bg-gray-400"></div>
           </div>
           <div className="ml-[7vw] mt-[5vh]">
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-            <div
-              style={{ backgroundImage: `url(${epic})` }}
-              className="w-[86vw] h-[20vh] sm:h-[30vh] lg:h-[50vh] xl:w-[61vw] bg-no-repeat bg-cover bg-center"
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
             >
-              <div className="relative top-[70px] sm:top-[200px] lg:top-[300px] lg:left-[2vw]">
-              <p className="text-lg font-normal text-[white]">
-                Craig Bator - 27 Dec 2020
-              </p>
-              <p className="text-2xl font-semibold text-[white] xl:text-5xl">
-                Play This Game for Free on Epic Store This Weekend
-              </p>
+              <div
+                style={{ backgroundImage: `url(${epic})` }}
+                className="w-[86vw] h-[20vh] sm:h-[30vh] lg:h-[50vh] xl:w-[61vw] bg-no-repeat bg-cover bg-center"
+              >
+                <div className="relative top-[70px] sm:top-[200px] lg:top-[300px] lg:left-[2vw]">
+                  <p className="text-lg font-normal text-[white]">
+                    Craig Bator - 27 Dec 2020
+                  </p>
+                  <p className="text-2xl font-semibold text-[white] xl:text-5xl">
+                    Play This Game for Free on Epic Store This Weekend
+                  </p>
+                </div>
               </div>
-            </div>
             </a>
-              <div className="flex flex-wrap gap-10 w-[61vw] mt-[7vh] lg:w-[86vw] xl:w-[61vw]">
-
-                <Test2
-                  image={videopicture}
-                  image1={play}
-                  text={"Craig Bator"}
-                  text2={"27 Dec 2020"}
-                  text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
-                />
-                <Test2
-                  image={videopicture}
-                  image1={play}
-                  text={"Craig Bator"}
-                  text2={"27 Dec 2020"}
-                  text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
-                />
-                <Test2
-                  image={videopicture}
-                  image1={play}
-                  text={"Craig Bator"}
-                  text2={"27 Dec 2020"}
-                  text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
-                />
-                <Test2
-                  image={videopicture}
-                  image1={play}
-                  text={"Craig Bator"}
-                  text2={"27 Dec 2020"}
-                  text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
-                />
-                <Test2
-                  image={videopicture}
-                  image1={play}
-                  text={"Craig Bator"}
-                  text2={"27 Dec 2020"}
-                  text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
-                />
-                <Test2
-                  image={videopicture}
-                  image1={play}
-                  text={"Craig Bator"}
-                  text2={"27 Dec 2020"}
-                  text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
-                />
-                <Test2
-                  image={videopicture}
-                  image1={play}
-                  text={"Craig Bator"}
-                  text2={"27 Dec 2020"}
-                  text3={"At Value-Focused Hotels, the Free Breakfast Gets Bigger"}
-                />
-              </div>
-            </div>  
+            <div className="flex flex-wrap gap-10 w-[61vw] mt-[7vh] lg:w-[86vw] xl:w-[61vw]">
+              <Test2
+                image={videopicture}
+                image1={play}
+                text={"Craig Bator"}
+                text2={"27 Dec 2020"}
+                text3={
+                  "At Value-Focused Hotels, the Free Breakfast Gets Bigger"
+                }
+              />
+              <Test2
+                image={videopicture}
+                image1={play}
+                text={"Craig Bator"}
+                text2={"27 Dec 2020"}
+                text3={
+                  "At Value-Focused Hotels, the Free Breakfast Gets Bigger"
+                }
+              />
+              <Test2
+                image={videopicture}
+                image1={play}
+                text={"Craig Bator"}
+                text2={"27 Dec 2020"}
+                text3={
+                  "At Value-Focused Hotels, the Free Breakfast Gets Bigger"
+                }
+              />
+              <Test2
+                image={videopicture}
+                image1={play}
+                text={"Craig Bator"}
+                text2={"27 Dec 2020"}
+                text3={
+                  "At Value-Focused Hotels, the Free Breakfast Gets Bigger"
+                }
+              />
+              <Test2
+                image={videopicture}
+                image1={play}
+                text={"Craig Bator"}
+                text2={"27 Dec 2020"}
+                text3={
+                  "At Value-Focused Hotels, the Free Breakfast Gets Bigger"
+                }
+              />
+              <Test2
+                image={videopicture}
+                image1={play}
+                text={"Craig Bator"}
+                text2={"27 Dec 2020"}
+                text3={
+                  "At Value-Focused Hotels, the Free Breakfast Gets Bigger"
+                }
+              />
+              <Test2
+                image={videopicture}
+                image1={play}
+                text={"Craig Bator"}
+                text2={"27 Dec 2020"}
+                text3={
+                  "At Value-Focused Hotels, the Free Breakfast Gets Bigger"
+                }
+              />
+            </div>
           </div>
+        </div>
         <div className="ml-[3vw]">
-           <Ad /> 
-           <Ad /> 
-           <Ad /> 
-          </div>
-          </div>
+          <Ad />
+          <Ad />
+          <Ad />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 };

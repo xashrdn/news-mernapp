@@ -1,6 +1,7 @@
 import Ad from "../components/Ad";
 import { Navbar } from "../components/Navbar";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 export const Lifestyle = () => {
   return (
@@ -8,10 +9,12 @@ export const Lifestyle = () => {
       <Navbar />
       <div className="flex ml-[7vw]">
         <div className="flex flex-col w-[64vw]">
-        <div className="mt-[5vh] w-[64vw]">
+          <div className="mt-[5vh] w-[64vw]">
             <div className="flex items-align justify-between w-[86vw] xl:w-[61vw] ">
               <div>
-                <p className="text-[10px] text-[#F65050] sm:text-[14px] md:text-[16px] lg:text-[20px] xl:text-[24px]">Life Style</p>
+                <p className="text-[10px] text-[#F65050] sm:text-[14px] md:text-[16px] lg:text-[20px] xl:text-[24px]">
+                  Life Style
+                </p>
               </div>
               <div className="flex gap-1 h-[10px] text-[white]">
                 <Link to="/">
@@ -109,82 +112,113 @@ export const Lifestyle = () => {
             </div>
             <div className="w-[86vw] lg:flex lg:flex-row mt-[3vh]">
               <div>
-              <div className="w-[100%] flex h-[100px] mt-[3vh] xl:mt-[2vh]">
-                <img className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]" src="pelje.JPG" alt="" />
-                <div className="ml-[1vw]">
-                  <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
-                  Craig Bator - <span className="text-[gray]">27 Dec 2020</span>
-                  </div>
-                  <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
-                  South Africa hammer injury-hit Sri Lanka Player
-                  </div>
-                </div>
-              </div>
-              <div className="w-[100%] flex h-[100px] xl:mt-[2vh]">
-                <img className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]" src="pelje.JPG" alt="" />
-                <div className="ml-[1vw]">
-                  <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
-                  Craig Bator - <span className="text-[gray]">27 Dec 2020</span>
-                  </div>
-                  <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
-                  South Africa hammer injury-hit Sri Lanka Player
+                <div className="w-[100%] flex h-[100px] mt-[3vh] xl:mt-[2vh]">
+                  <img
+                    className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]"
+                    src="pelje.JPG"
+                    alt=""
+                  />
+                  <div className="ml-[1vw]">
+                    <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
+                      Craig Bator -{" "}
+                      <span className="text-[gray]">27 Dec 2020</span>
+                    </div>
+                    <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
+                      South Africa hammer injury-hit Sri Lanka Player
+                    </div>
                   </div>
                 </div>
-              </div>
+                <div className="w-[100%] flex h-[100px] xl:mt-[2vh]">
+                  <img
+                    className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]"
+                    src="pelje.JPG"
+                    alt=""
+                  />
+                  <div className="ml-[1vw]">
+                    <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
+                      Craig Bator -{" "}
+                      <span className="text-[gray]">27 Dec 2020</span>
+                    </div>
+                    <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
+                      South Africa hammer injury-hit Sri Lanka Player
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="lg:mt-[3vh] xl:mt-[0vh] xl:ml-[3vw]">
-              <div className="w-[100%] flex h-[100px] xl:mt-[2vh]">
-                <img className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]" src="pelje.JPG" alt="" />
-                <div className="ml-[1vw]">
-                  <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
-                  Craig Bator - <span className="text-[gray]">27 Dec 2020</span>
-                  </div>
-                  <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
-                  South Africa hammer injury-hit Sri Lanka Player
-                  </div>
-                </div>
-              </div>
-              <div className="w-[100%] flex h-[100px] xl:mt-[2vh]">
-                <img className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]" src="pelje.JPG" alt="" />
-                <div className="ml-[1vw]">
-                  <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
-                  Craig Bator - <span className="text-[gray]">27 Dec 2020</span>
-                  </div>
-                  <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
-                  South Africa hammer injury-hit Sri Lanka Player
+                <div className="w-[100%] flex h-[100px] xl:mt-[2vh]">
+                  <img
+                    className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]"
+                    src="pelje.JPG"
+                    alt=""
+                  />
+                  <div className="ml-[1vw]">
+                    <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
+                      Craig Bator -{" "}
+                      <span className="text-[gray]">27 Dec 2020</span>
+                    </div>
+                    <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
+                      South Africa hammer injury-hit Sri Lanka Player
+                    </div>
                   </div>
                 </div>
-              </div>
+                <div className="w-[100%] flex h-[100px] xl:mt-[2vh]">
+                  <img
+                    className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]"
+                    src="pelje.JPG"
+                    alt=""
+                  />
+                  <div className="ml-[1vw]">
+                    <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
+                      Craig Bator -{" "}
+                      <span className="text-[gray]">27 Dec 2020</span>
+                    </div>
+                    <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
+                      South Africa hammer injury-hit Sri Lanka Player
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="lg:mt-[3vh] xl:mt-[0vh] xl:ml-[3vw]">
-              <div className="w-[100%] flex h-[100px] xl:mt-[2vh]">
-                <img className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]" src="pelje.JPG" alt="" />
-                <div className="ml-[1vw]">
-                  <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
-                  Craig Bator - <span className="text-[gray]">27 Dec 2020</span>
-                  </div>
-                  <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
-                  South Africa hammer injury-hit Sri Lanka Player
-                  </div>
-                </div>
-              </div>
-              <div className="w-[100%] flex h-[100px] xl:mt-[2vh]">
-                <img className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]" src="pelje.JPG" alt="" />
-                <div className="ml-[1vw]">
-                  <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
-                  Craig Bator - <span className="text-[gray]">27 Dec 2020</span>
-                  </div>
-                  <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
-                  South Africa hammer injury-hit Sri Lanka Player
+                <div className="w-[100%] flex h-[100px] xl:mt-[2vh]">
+                  <img
+                    className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]"
+                    src="pelje.JPG"
+                    alt=""
+                  />
+                  <div className="ml-[1vw]">
+                    <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
+                      Craig Bator -{" "}
+                      <span className="text-[gray]">27 Dec 2020</span>
+                    </div>
+                    <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
+                      South Africa hammer injury-hit Sri Lanka Player
+                    </div>
                   </div>
                 </div>
-              </div>
+                <div className="w-[100%] flex h-[100px] xl:mt-[2vh]">
+                  <img
+                    className="w-[80px] h-[70px] sm:w-[100px] sm:h-[80px] md:w-[110px] md:h-[85px] xl:w-[120px] xl:h-[93px] 2xl:w-[130px] 2xl:h-[100px]"
+                    src="pelje.JPG"
+                    alt=""
+                  />
+                  <div className="ml-[1vw]">
+                    <div className="font-normal text-base xl:text-[14px] 2xl:text-[18px]">
+                      Craig Bator -{" "}
+                      <span className="text-[gray]">27 Dec 2020</span>
+                    </div>
+                    <div className="text-[#393939] text-sm sm:text-lg font-medium xl:text-[16px] xl:leading-[22px] 2xl:text-[20px] w-[100%]">
+                      South Africa hammer injury-hit Sri Lanka Player
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-                </div>
+          </div>
         </div>
         <Ad />
       </div>
+      <Footer />
     </div>
   );
 };
