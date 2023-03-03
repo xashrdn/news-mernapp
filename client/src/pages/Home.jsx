@@ -7,7 +7,7 @@ const Home = () => {
       <div className="flex ">
         <div
           className="bg-no-repeat bg-cover bg-center w-[890px] h-[750px] ml-[7vw] mt-[2vh]
-        bg-[url(https://nmaahc.si.edu/sites/default/files/styles/max_1300x1300/public/images/header/audience-citizen_0.jpg?itok=unjNTfkP)]"
+		bg-[url(https://nmaahc.si.edu/sites/default/files/styles/max_1300x1300/public/images/header/audience-citizen_0.jpg?itok=unjNTfkP)]"
         >
           <div className="flex flex-col justify-between h-[95%] ml-[2vw]">
             <div>
@@ -25,7 +25,7 @@ const Home = () => {
           <div className="flex mt-[2vh]">
             <div
               className="bg-no-repeat bg-cover bg-center w-[490px] h-[350px] 
-        bg-[url(https://nmaahc.si.edu/sites/default/files/styles/max_1300x1300/public/images/header/audience-citizen_0.jpg?itok=unjNTfkP)]"
+		bg-[url(https://nmaahc.si.edu/sites/default/files/styles/max_1300x1300/public/images/header/audience-citizen_0.jpg?itok=unjNTfkP)]"
             >
               {" "}
               <div className="flex flex-col justify-between h-[90%] ml-[2vw]">
@@ -44,7 +44,7 @@ const Home = () => {
             </div>
             <div
               className="bg-no-repeat bg-cover bg-center w-[490px] h-[350px] ml-[10px]
-        bg-[url(https://nmaahc.si.edu/sites/default/files/styles/max_1300x1300/public/images/header/audience-citizen_0.jpg?itok=unjNTfkP)]"
+		bg-[url(https://nmaahc.si.edu/sites/default/files/styles/max_1300x1300/public/images/header/audience-citizen_0.jpg?itok=unjNTfkP)]"
             >
               <div className="flex flex-col justify-between h-[90%] ml-[2vw]">
                 <div>
@@ -63,7 +63,7 @@ const Home = () => {
           </div>
           <div
             className="bg-no-repeat bg-cover bg-center w-[1000px] h-[380px] mt-[20px]
-        bg-[url(https://nmaahc.si.edu/sites/default/files/styles/max_1300x1300/public/images/header/audience-citizen_0.jpg?itok=unjNTfkP)]"
+		bg-[url(https://nmaahc.si.edu/sites/default/files/styles/max_1300x1300/public/images/header/audience-citizen_0.jpg?itok=unjNTfkP)]"
           >
             <div className="flex flex-col justify-between h-[90%] ml-[2vw]">
               <div>
