@@ -26,7 +26,7 @@ const Login = () => {
 
   return (
     <div>
-      <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0 bg-[#4267B2]">
+      <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0">
         <div>
           <a href="/">
             <img width="140px" heigth="140px" src={logo} alt="" />
@@ -66,14 +66,14 @@ const Login = () => {
                 />
               </div>
             </div>
-            <a href="#" className="text-xs text-blue-600 hover:underline">
+            <a href="#" className="text-xs text-red-600 hover:underline">
               Forget Password?
             </a>
             <div className="flex items-center mt-4">
               <button
                 type="submit"
                 onClick={create}
-                className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-black rounded-md hover:bg-blue-800 focus:outline-none focus:bg-gray-600"
+                className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-black rounded-md hover:bg-red-700 focus:outline-none focus:bg-gray-600"
               >
                 Register
               </button>
@@ -82,7 +82,7 @@ const Login = () => {
           <div className="mt-4 text-grey-600">
             Don't have an account?{" "}
             <span>
-              <a className="text-blue-600 hover:underline" href="/register">
+              <a className="text-red-600 hover:underline" href="/register">
                 Register
               </a>
             </span>

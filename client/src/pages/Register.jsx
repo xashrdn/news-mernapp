@@ -27,7 +27,7 @@ const Register = () => {
 
   return (
     <div>
-      <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0 bg-[#4267B2]">
+      <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0">
         <div>
           <a href="/">
             <img width="140px" heigth="140px" src={logo} alt="" />
@@ -101,7 +101,7 @@ const Register = () => {
             </div>
             <a
               href="/forgetPw"
-              className="text-xs text-blue-600 hover:underline"
+              className="text-xs text-red-600 hover:underline"
             >
               Forget Password?
             </a>
@@ -109,7 +109,7 @@ const Register = () => {
               <button
                 type="submit"
                 onClick={register}
-                className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-[black] rounded-md hover:bg-blue-700 focus:outline-none focus:bg-gray-600"
+                className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-[black] rounded-md hover:bg-red-700 focus:outline-none focus:bg-gray-600"
               >
                 Register
               </button>
@@ -118,7 +118,7 @@ const Register = () => {
           <div className="mt-4 text-grey-600">
             Already have an account?{" "}
             <span>
-              <Link to="/login" className="text-blue-600 hover:underline">
+              <Link to="/login" className="text-red-600 hover:underline">
                 Log in
               </Link>
             </span>
