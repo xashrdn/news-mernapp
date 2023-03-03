@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <div>
-      <div className="w-[100vw] h-14 shadow items-center lg:space-x-6 flex">
+      <div className="w-[100vw] h-14 shadow items-center justify-between flex">
         <div className="flex items-center ml-[7vw] gap-0 sm:gap-2">
           <img
             className="w-[20px] h-[10px] sm:w-[30px] sm:h-[20px]"
@@ -32,13 +32,13 @@ export const Navbar = () => {
             Indonesia says located black box recorders from crashed plane
           </div>
         </div>
-        <div className="mr-[7vw] xl:mr-[0] xl:ml-[20vw]">
+        <div className="mr-[7vw] ">
           <img className="" src={socials} alt="" />
         </div>
       </div>
       <div className="ml-[7vw] mt-[6vh] w-[86vw] flex justify-between items-center">
         <img
-          className="h-[30px] sm:h-[40px] md:h-[55px] xl:h-[60px]"
+          className="h-[30px] sm:h-[40px] md:h-[55px] xl:h-[60px] 2xl:h-[80px]"
           src={logo}
           alt=""
         />
@@ -54,17 +54,17 @@ export const Navbar = () => {
           </div>
           <button
             style={{ transition: ".4s" }}
-            className="w-[20vw] h-[5vh] bg-[#F65050] text-[white] text-[8px] sm:text-[12px] md:text-[16px] hover:bg-red-700"
+            className="w-[20vw] h-[5vh] bg-[#F65050] text-[white] text-[8px] sm:text-[12px] md:text-[16px] xl:text-[22px] 2xl:text-[24px] sm:w-[15vw] sm:h-[3vh] lg:h-[5vh] lg:text-[19px] hover:bg-red-700"
           >
             Purchase now
           </button>
         </div>
       </div>
-      <div className="flex items-center text-[white] ml-[7vw] mt-[6vh] w-[86vw] h-[40px] sm:h-[46px] md:h-[51px] bg-[#393939]">
+      <div className="flex items-center text-[white] ml-[7vw] mt-[6vh] w-[86vw] h-[40px] sm:h-[46px] md:h-[51px] xl:h-[58px] bg-[#393939]">
         <Link to="/">
           <div
             style={{ transition: ".4s" }}
-            className="p-[14px]  text-[8px]  sm:text-[12px] md:text-[16px] hover:bg-[#F65050] "
+            className="p-[14px]  text-[8px]  sm:text-[12px] md:text-[16px] xl:text-[20px] hover:bg-[#F65050] "
           >
             Home
           </div>
@@ -72,7 +72,7 @@ export const Navbar = () => {
         <Link to="/News">
           <div
             style={{ transition: ".4s" }}
-            className="p-[14px] text-[8px] sm:text-[12px] md:text-[16px] hover:bg-[#F65050] "
+            className="p-[14px] text-[8px] sm:text-[12px] md:text-[16px] xl:text-[20px] hover:bg-[#F65050] "
           >
             News
           </div>
@@ -80,7 +80,7 @@ export const Navbar = () => {
         <Link to="/Entertainment">
           <div
             style={{ transition: ".4s" }}
-            className="pb-[14px] pt-[14px] pr-[5px] pl-[5px] text-[8px] md:text-[16px] sm:text-[12px] hover:bg-[#F65050] "
+            className="pb-[14px] pt-[14px] pr-[5px] pl-[5px] text-[8px] md:text-[16px] xl:text-[20px] sm:text-[12px]  hover:bg-[#F65050] "
           >
             Entertainment
           </div>
@@ -88,7 +88,7 @@ export const Navbar = () => {
         <Link to="/Sports">
           <div
             style={{ transition: ".4s" }}
-            className="p-[14px] text-[8px] sm:text-[12px] hover:bg-[#F65050] md:text-[16px]"
+            className="p-[14px] text-[8px] sm:text-[12px] hover:bg-[#F65050] xl:text-[20px] md:text-[16px]"
           >
             Sports
           </div>
@@ -96,7 +96,7 @@ export const Navbar = () => {
         <Link to="/LifeStyle">
           <div
             style={{ transition: ".4s" }}
-            className="pb-[14px] pt-[14px] pr-[5px] pl-[5px]   text-[8px] sm:text-[12px] md:text-[16px] hover:bg-[#F65050] "
+            className="pb-[14px] pt-[14px] pr-[5px] pl-[5px] xl:text-[20px]  text-[8px] sm:text-[12px] md:text-[16px] hover:bg-[#F65050] "
           >
             Life Style
           </div>
@@ -104,7 +104,7 @@ export const Navbar = () => {
         <Link to="/Video">
           <div
             style={{ transition: ".4s" }}
-            className="p-[14px] text-[8px] sm:text-[12px] hover:bg-[#F65050] md:text-[16px]"
+            className="p-[14px] text-[8px] sm:text-[12px] xl:text-[20px] hover:bg-[#F65050] md:text-[16px]"
           >
             Video
           </div>

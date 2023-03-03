@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 export const Pagebutton = () => {
   return (
-    <div className="flex gap-5 h-[30px] text-[white]">
+    <div className="flex gap-5 h-[10px] text-[white]">
       <Link to="/">
         <div
           style={{ transition: ".4s" }}
-          className=" pl-3 pr-3 bg-[#F65050] hover:bg-red-700"
+          className="pl-[8px] pr-[8px] text-[9px] bg-[#F65050] hover:bg-red-700"
         >
           All
         </div>
