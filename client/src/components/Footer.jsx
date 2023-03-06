@@ -13,11 +13,11 @@ const Footer = () => {
       >
         <div className="w-[86vw] 2xl:w-[86vw] ml-[7vw] mt-[2vh] sm:mt-[4vh] lg:flex lg:flex-row lg:justify-between"
         >
-          <div className="flex flex-col"
+          <div className="flex flex-col h-[18vh] md:h-[14vh] lg:h-[32vh] 2xl:h-[28vh]"
           >
             <div
               style={{backgroundImage: `url(${logo})`}}
-              className="bg-cover bg-contain bg-no-repeat h-[4vh] w-[100%] lg:w-[100%] lg:h-[5.1vh]"></div>
+              className="bg-contain bg-no-repeat h-[4vh] w-[86vw] lg:w-[18vw] lg:h-[8vh]"></div>
             <p className="text-[white] text-[14px] sm:text-[16px] md:text-[18px] lg:w-[19vw]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque,
               pellentesque dictum posuere id diam rutrum.
