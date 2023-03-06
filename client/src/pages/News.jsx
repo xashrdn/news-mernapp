@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 export const News = () => {
   return (
-    <div className="w-[100vw]">
+    <div className="w-[100%]">
       <Navbar />
       <div className="flex flex-row">
         <div>
@@ -16,7 +16,7 @@ export const News = () => {
             <div className="flex items-align justify-between w-[86vw] xl:w-[61vw] ">
               <div>
                 <p className="text-[10px] text-[#F65050] sm:text-[14px] md:text-[16px] lg:text-[20px] xl:text-[24px]">
-                  Life Style
+                  News
                 </p>
               </div>
               <div className="flex gap-1 h-[10px] text-[white]">

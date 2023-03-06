@@ -1,12 +1,12 @@
 const Ad = () => {
   return (
-    <div className="hidden xl:block mt-[4vh]">
+    <div className="hidden xl:block mt-[4.3vh]">
       <div className="flex ">
         <p className="mr-[15vw] font-sans-serif text-red-400 text-2xl xl:text-[24px] ">
           Stay Connected
         </p>
       </div>
-      <div className="h-[1px] w-full bg-black mt-3 xl:w-[22vw]"></div>
+      <div className="h-[1px] w-full bg-gray-400 mt-3 xl:w-[22vw]"></div>
       <div className="flex flex-col">
         <div className="mt-[25px] flex flex-col">
           <div className="flex">
