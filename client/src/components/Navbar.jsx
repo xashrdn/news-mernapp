@@ -4,8 +4,10 @@ import socials from "../assets/Temujin/socials.svg";
 import logo from "../assets/Temujin/logo.svg";
 import backgroundAd from "../assets/Temujin/backgroundAd.svg";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export const Navbar = () => {
+  const [loggedIn, setLoggedIn] = useState(true);
   return (
     <div>
       <div className="w-[100vw] h-14 shadow items-center justify-between flex">
@@ -28,13 +30,44 @@ export const Navbar = () => {
           <div className="w-20 h-14 bg-[#F65050] items-center justify-center flex text-[8px] sm:text-[12px] sm:w-28 lg:w-24 text-white">
             Breaking News
           </div>
-          <div className="text-[0px] sm:text-[12px]">
-            Indonesia says located black box recorders from crashed plane
+        </div>
+        {loggedIn ? (
+          <div className="flex flex-row mr-[7vw] gap-2">
+              <div
+                style={{transition:".4s"}} className="mr-[1vw] text-[8px] border-[0.1px] border-black pl-[5px] pr-[5px] rounded hover:bg-red-500 hover:text-white hover:border-none flex justify-center items-align"
+              >
+                USERNAME
+              </div>
+              <div
+                style={{transition:".4s"}} className="border-[0.1px] text-[8px] border-black rounded hover:bg-red-500 pl-[5px] pr-[5px] hover:text-white hover:border-none flex justify-center items-align"
+              >
+                CREATE NEWS
+              </div>
           </div>
-        </div>
-        <div className="mr-[7vw] ">
-          <img className="" src={socials} alt="" />
-        </div>
+        ) : (
+          <div className="flex flex-row mr-[7vw] gap-2">
+            <Link to="/Login">
+              <div
+                style={{ transition: ".4s" }}
+                className="border w-[12vw] lg:w-[100px] rounded flex border border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px]"
+              >
+                Login
+              </div>
+            </Link>
+            <Link to="/Register">
+              <div
+                style={{ transition: ".4s" }}
+                className="border w-[16vw] lg:w-[100px] rounded flex border border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px]"
+              >
+                Register
+              </div>
+            </Link>
+          </div>
+        )}
+
+        {/* <div style={{transition:".4s"}} className="mr-[7vw] border-[0.1px] border-black rounded p-1 hover:bg-red-500 hover:text-white hover:border-none">
+          BURMAA
+        </div> */}
       </div>
       <div className="ml-[7vw] mt-[6vh] w-[86vw] flex justify-between items-center">
         <img

@@ -67,7 +67,7 @@ const Login = () => {
               </div>
             </div>
             <a href="#" className="text-xs text-red-600 hover:underline">
-              Forget Password?
+              Forgot Password?
             </a>
             <div className="flex items-center mt-4">
               <button
@@ -75,7 +75,7 @@ const Login = () => {
                 onClick={create}
                 className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-black rounded-md hover:bg-red-700 focus:outline-none focus:bg-gray-600"
               >
-                Register
+                Login
               </button>
             </div>
           </form>
