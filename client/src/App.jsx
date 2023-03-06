@@ -7,6 +7,7 @@ import { Sports } from "./pages/Sports";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import { Entertaiment } from "./pages/Entertainment";
+import CreateNews from "./pages/CreateNews";
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Entertainment" element={<Entertaiment />} />
+        <Route path="/Entertainment" element={<Entertaiment />} />
+        <Route path="/CreateNews" element={<CreateNews />} />
       </Routes>
     </BrowserRouter>
   );
