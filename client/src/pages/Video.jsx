@@ -71,7 +71,7 @@ export const Video = () => {
                 </Link>
               </div>
             </div>
-            <div className="w-[86vw] lg:w-[61vw] h-[1px] bg-gray-400"></div>
+            <div className="w-[86vw] h-[1px] bg-gray-400"></div>
           </div>
           <div className="ml-[7vw] mt-[5vh]">
             <a
@@ -80,9 +80,9 @@ export const Video = () => {
             >
               <div
                 style={{ backgroundImage: `url(${epic})` }}
-                className="w-[86vw] h-[20vh] sm:h-[30vh] lg:h-[50vh] xl:w-[61vw] bg-no-repeat bg-cover bg-center"
+                className="w-[86vw] h-[20vh] sm:h-[30vh] lg:h-[50vh] xl:w-[61vw] bg-no-repeat pl-[3vw] pt-[19vh] sm:pt-[22vh] lg:pt-[40vh] xl:pt-[32vh] bg-cover bg-center h-[90%] flex justify-between"
               >
-                <div className="relative top-[70px] sm:top-[200px] lg:top-[300px] lg:left-[2vw]">
+                <div>
                   <p className="text-lg font-normal text-[white]">
                     Craig Bator - 27 Dec 2020
                   </p>
