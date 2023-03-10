@@ -38,12 +38,14 @@ export const Navbar = () => {
             >
               USERNAME
             </div>
-            <div
-              style={{ transition: ".4s" }}
-              className=" rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[14vw] md:w-[10vw] lg:w-[5vw] p-1"
-            >
-              POST NEWS
-            </div>
+            <Link to="/CreateNews">
+              <div
+                style={{ transition: ".4s" }}
+                className=" rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[14vw] md:w-[10vw] lg:w-[5vw] p-1"
+              >
+                POST NEWS
+              </div>
+            </Link>
           </div>
         ) : (
           <div className="flex flex-row mr-[7vw] gap-2">
