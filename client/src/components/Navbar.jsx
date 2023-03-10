@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export const Navbar = () => {
-  const [loggedIn, setLoggedIn] = useState(true);
+  const [loggedIn, setLoggedIn] = useState(false);
   return (
     <div>
       <div className="w-[100vw] h-14 shadow items-center justify-between flex">
@@ -24,8 +24,7 @@ export const Navbar = () => {
             alt=""
           />
           <div className="text-[8px] sm:text-[12px]">
-            {" "}
-            Wednesday, 10 January 2021{" "}
+            Wednesday, 10 January 2021
           </div>
           <div className="w-20 h-14 bg-[#F65050] items-center justify-center flex text-[8px] sm:text-[12px] sm:w-28 lg:w-24 text-white">
             Breaking News
@@ -33,23 +32,25 @@ export const Navbar = () => {
         </div>
         {loggedIn ? (
           <div className="flex flex-row mr-[7vw] gap-2">
-              <div
-                style={{transition:".4s"}} className="mr-[1vw] text-[8px] border-[0.1px] border-black pl-[5px] pr-[5px] rounded hover:bg-red-500 hover:text-white hover:border-none flex justify-center items-align"
-              >
-                USERNAME
-              </div>
-              <div
-                style={{transition:".4s"}} className="border-[0.1px] text-[8px] border-black rounded hover:bg-red-500 pl-[5px] pr-[5px] hover:text-white hover:border-none flex justify-center items-align"
-              >
-                CREATE NEWS
-              </div>
+            <div
+              style={{ transition: ".4s" }}
+              className="ml-[1vw] rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[14vw] md:w-[10vw] lg:w-[5vw] p-1"
+            >
+              USERNAME
+            </div>
+            <div
+              style={{ transition: ".4s" }}
+              className=" rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[14vw] md:w-[10vw] lg:w-[5vw] p-1"
+            >
+              POST NEWS
+            </div>
           </div>
         ) : (
           <div className="flex flex-row mr-[7vw] gap-2">
             <Link to="/Login">
               <div
                 style={{ transition: ".4s" }}
-                className="border w-[12vw] lg:w-[100px] rounded flex border border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px]"
+                className="ml-[1vw] rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[14vw] md:w-[10vw] lg:w-[5vw] p-1"
               >
                 Login
               </div>
@@ -57,7 +58,7 @@ export const Navbar = () => {
             <Link to="/Register">
               <div
                 style={{ transition: ".4s" }}
-                className="border w-[16vw] lg:w-[100px] rounded flex border border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px]"
+                className="  rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[14vw] md:w-[10vw] lg:w-[5vw] p-1"
               >
                 Register
               </div>
@@ -65,7 +66,10 @@ export const Navbar = () => {
           </div>
         )}
 
-        {/* <div style={{transition:".4s"}} className="mr-[7vw] border-[0.1px] border-black rounded p-1 hover:bg-red-500 hover:text-white hover:border-none">
+        {/* <div
+          style={{ transition: ".4s" }}
+          className="mr-[7vw] border-[0.1px] border-black rounded p-1 hover:bg-red-500 hover:text-white hover:border-none"
+        >
           BURMAA
         </div> */}
       </div>
