@@ -8,21 +8,24 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import { Entertaiment } from "./pages/Entertainment";
 import CreateNews from "./pages/CreateNews";
+import UserProvider from "./context/UserContext";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/News" element={<News />} />
-        <Route path="/Video" element={<Video />} />
-        <Route path="/Lifestyle" element={<Lifestyle />} />
-        <Route path="/Sports" element={<Sports />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Register" element={<Register />} />
-        <Route path="/Entertainment" element={<Entertaiment />} />
-        <Route path="/CreateNews" element={<CreateNews />} />
-      </Routes>
+      <UserProvider>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/video" element={<Video />} />
+          <Route path="/lifestyle" element={<Lifestyle />} />
+          <Route path="/sports" element={<Sports />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/entertainment" element={<Entertaiment />} />
+          <Route path="/createNews" element={<CreateNews />} />
+        </Routes>
+      </UserProvider>
     </BrowserRouter>
   );
 };

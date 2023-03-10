@@ -71,7 +71,7 @@ export const Video = () => {
                 </Link>
               </div>
             </div>
-            <div className="w-[86vw] h-[1px] bg-gray-400"></div>
+            <div className="w-[61vw] h-[1px] bg-gray-400"></div>
           </div>
           <div className="ml-[7vw] mt-[5vh]">
             <a
@@ -80,7 +80,7 @@ export const Video = () => {
             >
               <div
                 style={{ backgroundImage: `url(${epic})` }}
-                className="w-[86vw] h-[20vh] sm:h-[30vh] lg:h-[50vh] xl:w-[61vw] bg-no-repeat pl-[3vw] pt-[19vh] sm:pt-[22vh] lg:pt-[40vh] xl:pt-[32vh] bg-cover bg-center h-[90%] flex justify-between"
+                className="w-[86vw] h-[20vh] sm:h-[30vh] lg:h-[50vh] xl:w-[61vw] bg-no-repeat pl-[3vw] pt-[19vh] sm:pt-[22vh] lg:pt-[40vh] xl:pt-[32vh] bg-cover bg-center flex justify-between"
               >
                 <div>
                   <p className="text-lg font-normal text-[white]">
@@ -160,8 +160,6 @@ export const Video = () => {
           </div>
         </div>
         <div className="ml-[3vw]">
-          <Ad />
-          <Ad />
           <Ad />
         </div>
       </div>

@@ -1,16 +1,16 @@
 import sunset from "../assets/Temujin/sunset.svg";
 import clock from "../assets/Temujin/clock.svg";
-import socials from "../assets/Temujin/socials.svg";
+import { User } from "../context/UserContext";
 import logo from "../assets/Temujin/logo.svg";
 import backgroundAd from "../assets/Temujin/backgroundAd.svg";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useContext } from "react";
 
 export const Navbar = () => {
-  const [loggedIn, setLoggedIn] = useState(false);
+  const { loggedIn } = useContext(User);
   return (
-    <div>
-      <div className="w-[100vw] h-14 shadow items-center justify-between flex">
+    <div className="w-[100vw]">
+      <div className=" h-14 shadow items-center justify-between flex">
         <div className="flex items-center ml-[7vw] gap-0 sm:gap-2">
           <img
             className="w-[20px] h-[10px] sm:w-[30px] sm:h-[20px]"
@@ -34,22 +34,23 @@ export const Navbar = () => {
           <div className="flex flex-row mr-[7vw] gap-2">
             <div
               style={{ transition: ".4s" }}
-              className="ml-[1vw] rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[14vw] md:w-[10vw] lg:w-[5vw] p-1"
+              className="ml-[1vw] rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[18vw] md:w-[14vw] lg:w-[14vw] p-1"
             >
-              USERNAME
+              {localStorage.getItem("name")}
             </div>
-            <Link to="/CreateNews">
+
+            <Link to="/createNews">
               <div
                 style={{ transition: ".4s" }}
                 className=" rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[14vw] md:w-[10vw] lg:w-[5vw] p-1"
               >
-                POST NEWS
+                Post
               </div>
             </Link>
           </div>
         ) : (
           <div className="flex flex-row mr-[7vw] gap-2">
-            <Link to="/Login">
+            <Link to="/login">
               <div
                 style={{ transition: ".4s" }}
                 className="ml-[1vw] rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[14vw] md:w-[10vw] lg:w-[5vw] p-1"
@@ -57,23 +58,16 @@ export const Navbar = () => {
                 Login
               </div>
             </Link>
-            <Link to="/Register">
+            <Link to="/register">
               <div
                 style={{ transition: ".4s" }}
-                className="  rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[14vw] md:w-[10vw] lg:w-[5vw] p-1"
+                className=" rounded flex  border-black justify-center items-align hover:bg-red-500 hover:text-white hover:border-none border-[0.1px] w-[14vw] md:w-[10vw] lg:w-[5vw] p-1"
               >
                 Register
               </div>
             </Link>
           </div>
         )}
-
-        {/* <div
-          style={{ transition: ".4s" }}
-          className="mr-[7vw] border-[0.1px] border-black rounded p-1 hover:bg-red-500 hover:text-white hover:border-none"
-        >
-          BURMAA
-        </div> */}
       </div>
       <div className="ml-[7vw] mt-[6vh] w-[86vw] flex justify-between items-center">
         <img
@@ -108,7 +102,7 @@ export const Navbar = () => {
             Home
           </div>
         </Link>
-        <Link to="/News">
+        <Link to="/news">
           <div
             style={{ transition: ".4s" }}
             className="p-[14px] text-[8px] sm:text-[12px] md:text-[16px] xl:text-[20px] hover:bg-[#F65050] "
@@ -116,7 +110,7 @@ export const Navbar = () => {
             News
           </div>
         </Link>
-        <Link to="/Entertainment">
+        <Link to="/entertainment">
           <div
             style={{ transition: ".4s" }}
             className="pb-[14px] pt-[14px] pr-[5px] pl-[5px] text-[8px] md:text-[16px] xl:text-[20px] sm:text-[12px]  hover:bg-[#F65050] "
@@ -124,7 +118,7 @@ export const Navbar = () => {
             Entertainment
           </div>
         </Link>
-        <Link to="/Sports">
+        <Link to="/sports">
           <div
             style={{ transition: ".4s" }}
             className="p-[14px] text-[8px] sm:text-[12px] hover:bg-[#F65050] xl:text-[20px] md:text-[16px]"
@@ -132,7 +126,7 @@ export const Navbar = () => {
             Sports
           </div>
         </Link>
-        <Link to="/LifeStyle">
+        <Link to="/lifeStyle">
           <div
             style={{ transition: ".4s" }}
             className="pb-[14px] pt-[14px] pr-[5px] pl-[5px] xl:text-[20px]  text-[8px] sm:text-[12px] md:text-[16px] hover:bg-[#F65050] "
@@ -140,7 +134,7 @@ export const Navbar = () => {
             Life Style
           </div>
         </Link>
-        <Link to="/Video">
+        <Link to="/video">
           <div
             style={{ transition: ".4s" }}
             className="p-[14px] text-[8px] sm:text-[12px] xl:text-[20px] hover:bg-[#F65050] md:text-[16px]"

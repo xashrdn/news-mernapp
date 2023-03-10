@@ -6,7 +6,7 @@ const Ad = () => {
           Stay Connected
         </p>
       </div>
-      <div className="h-[1px] w-full bg-gray-400 mt-3 xl:w-[22vw]"></div>
+      <div className="h-[1px] w-full bg-gray-400 mt-2.5 xl:w-[22vw]"></div>
       <div className="flex flex-col">
         <div className="mt-[25px] flex flex-col">
           <div className="flex">

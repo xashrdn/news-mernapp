@@ -9,7 +9,6 @@ const Home = () => {
         <div
           className="bg-no-repeat bg-cover bg-center mt-[2vh]  h-[36vh]
 		bg-[url(https://nmaahc.si.edu/sites/default/files/styles/max_1300x1300/public/images/header/audience-citizen_0.jpg?itok=unjNTfkP)] lg:w-[50vw] lg:h-[70vh]"
-    
         >
           <div className="flex flex-col justify-between h-[90%] ml-[2vw] lg:h-[66vh]">
             <div>
@@ -72,7 +71,7 @@ const Home = () => {
               </div>
               <div>
                 <p>Craig Bator - 27 Dec 2020</p>
-                <p className="text-[20px] text-pink-900 lg:text-[22px] xl:text-[40px]">
+                <p className="text-[20px] text-pink-900 lg:text-[22px] xl:text-[30px]">
                   After all is said and done, more is done
                 </p>
               </div>

@@ -11,17 +11,14 @@ const Login = () => {
       email: email,
       password: password,
     });
-    console.log(result);
-    const nameSaver = `${result?.data?.user?.firstName} ${result?.data?.user?.lastName}`;
-
-    localStorage.setItem("token", result?.data?.token);
-    localStorage.setItem("userId", result?.data?.user?._id);
-    localStorage.setItem("name", nameSaver);
     if (result.status == 200) {
       window.location = "/";
       alert("Success!");
     }
-    console.log(result);
+    const nameSaver = `${result?.data?.user?.firstName} ${result?.data?.user?.lastName}`;
+    window.localStorage.setItem("token", result?.data?.token);
+    window.localStorage.setItem("userId", result?.data?.user?._id);
+    window.localStorage.setItem("name", nameSaver);
   };
 
   return (
