@@ -7,6 +7,11 @@ import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
 export const News = () => {
+
+
+  
+
+
   return (
     <div className="w-[100%]">
       <Navbar />

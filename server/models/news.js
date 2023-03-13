@@ -28,10 +28,10 @@ const NewsSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    texts: {
+    paragraph: {
       type: String,
       required: true,
-      minlength: 100,
+        minlength: 100,
     },
     userId: {
       type: mongoose.Schema.ObjectId,
